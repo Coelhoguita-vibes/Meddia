@@ -29,9 +29,10 @@ jobs:
         with:
           packages: platform-tools
 
-      - name: Instalar Capacitor e criar plataforma Android
+      - name: Instalar dependências e compilar aplicativo
         run: |
           npm install
+          npm run build
           npx cap add android
           npx cap sync android
 
