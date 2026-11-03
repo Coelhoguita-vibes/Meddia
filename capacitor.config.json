@@ -1,0 +1,6 @@
+{
+  "appId": "com.meddia.controle",
+  "appName": "MedDia",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

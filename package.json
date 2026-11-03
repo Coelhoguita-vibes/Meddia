@@ -1,0 +1,18 @@
+{
+  "name": "meddia-app",
+  "version": "1.0.0",
+  "description": "Aplicativo MedDia para controle diário e estoque de medicamentos",
+  "private": true,
+  "scripts": {
+    "cap:init": "npx cap add android",
+    "cap:sync": "npx cap sync android",
+    "apk:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
